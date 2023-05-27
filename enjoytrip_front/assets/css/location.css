@@ -1,0 +1,96 @@
+.form-select{
+    width: 400px;
+    height: 55px;
+    font-size: 20px;
+    border-radius: 8px;
+    border-color:rgb(189, 189, 189);
+    color: rgb(90, 90, 90);
+    margin: 3px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn-search {
+    height: 55px;
+    width: 100px;
+    border-radius: 8px;
+    margin-left: 3px;
+    color: white;
+    background-color:deepskyblue;
+}
+
+h2 {
+    margin-top: 90px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: rgb(56, 56, 56);
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+.irOnly {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.pageHeader {
+    width: 100%;
+    position: fixed;
+    transition: 0.2s;
+    box-shadow: 0 -1px 20px 5px #ccc;
+    border-bottom: 1px solid #c4c4c4;
+    background-color: white;
+    color: #333;
+}
+
+.pageHeader .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.pageHeader .pageHeaderTitle {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 24px;
+}
+
+.pageHeader .pageNavList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 16px;
+}
+
+.pageHeader .notExistUser {
+    display: none;
+}
+
+.pageHeader .notExistUser.show {
+    display: block;
+}
+
+.pageHeader .existUser {
+    display: none;
+}
+
+.pageHeader .existUser.show {
+    display: block;
+} */

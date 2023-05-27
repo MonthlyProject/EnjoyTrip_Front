@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enjoy Trip</title>
+    <link rel="stylesheet" href="/assets/css/header/header.css">
+    <link rel="stylesheet" href="/assets/css/header/subHeader.css">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="stylesheet" href="/assets/css/location.css">
+
+    <style>
+        * {
+            font-family: 'Noto Sans KR', sans-serif;
+            ;
+        }
+    </style>
+</head>
+
+<body>
+    <main style="padding-top: 80px;">
+        <h2>지역별 관광정보</h2>
+        <!-- 관광지 검색 start -->
+        <form>
+            <select id="search-area" class="form-select">
+                <option value="0" id="area" selected>검색 할 지역 선택</option>
+            </select>
+            <select id="search-area-area" class="form-select">
+                <option value="0" selected>검색 할 세부지역 선택</option>
+            </select>
+            <select id="search-content-id" class="form-select">
+                <option value="0" selected>관광지 유형</option>
+                <option value="12">관광지</option>
+                <option value="14">문화시설</option>
+                <option value="15">축제공연행사</option>
+                <option value="25">여행코스</option>
+                <option value="28">레포츠</option>
+                <option value="32">숙박</option>
+                <option value="38">쇼핑</option>
+                <option value="39">음식점</option>
+            </select>
+            <button id="btn-search" type="button">검색</button>
+        </form>
+        <!-- 관광지 검색 end -->
+        <!-- 지도를 표시할 div 입니다 -->
+        <div id="map" style="width:99%;height:570px; margin: 10px;">
+            <script type="text/javascript"
+                src="//dapi.kakao.com/v2/maps/sdk.js?appkey=54bc1b9c7746df1f03acaf0a07564944"></script>
+        </div>
+    </main>
+    <footer>
+    </footer>
+
+    <script type="module" src="/assets/js/location.js"></script>
+</body>
+
+</html>
