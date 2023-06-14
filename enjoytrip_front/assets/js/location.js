@@ -16,7 +16,7 @@ var markers = [];
 var markerscontent = [];
 
 // index page 로딩시 검색할 지역 정보 얻기.
-const serviceKey = "yqQoZCEBw8Ru1rdsmbi3WL8IUjskL%2Fsm%2F3vzcB3ybfiF3FWb4dsk5LACmEzzxH1GBBppZ7UJt%2BIEp8RAJ4KqTg%3D%3D";
+const serviceKey = "servicekey";
 let areaUrl =
     "https://apis.data.go.kr/B551011/KorService1/areaCode1?serviceKey=" +
     serviceKey +
